@@ -1,0 +1,60 @@
+.email-signatures-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.email-signatures-anthony-hitch {
+  flex: 0 0 auto;
+  width: 40%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+}
+.email-signatures-feature-card {
+  width: auto;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.email-signatures-image {
+  width: 100px;
+  object-fit: cover;
+}
+.email-signatures-container1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.email-signatures-text {
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.email-signatures-text1 {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: capitalize;
+  text-decoration: none;
+}
+@media(max-width: 767px) {
+  .email-signatures-feature-card {
+    flex-direction: row;
+  }
+  .email-signatures-container1 {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .email-signatures-container1 {
+    flex-direction: column;
+  }
+}
